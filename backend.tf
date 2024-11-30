@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "State_bucket" {
-  bucket = "terraform-infra-"765
+  bucket = "terraform-infra-765"
   
 }
 resource "aws_s3_bucket_versioning" "version_s3" {
