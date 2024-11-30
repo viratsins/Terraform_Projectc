@@ -13,7 +13,7 @@ resource "aws_instance" "private_1" {
     apt-get install -y apache2
     systemctl enable apache2
     systemctl start apache2
-    echo "<h1>Welcome to Web Subnet (Private-1)</h1>" > /var/www/html/index.html
+    echo "<h1>elcome to Web Subnet (Private-1)</h1>" > /var/www/html/index.html
   EOT
 
   tags = {
